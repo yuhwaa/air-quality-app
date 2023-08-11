@@ -1,0 +1,15 @@
+.bg-orange {
+    background-color: #FFA500;
+}
+
+.bg-very-unhealthy {
+    background-color: #800080;
+}
+
+.bg-hazardous {
+    background-color: #7E0023;
+}
+
+.bg-pink {
+    background-color: rgb(255, 192, 171);
+}
