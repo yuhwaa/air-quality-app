@@ -4,12 +4,22 @@
 
 .bg-very-unhealthy {
     background-color: #800080;
+    color: #fff;
 }
 
 .bg-hazardous {
     background-color: #7E0023;
+    color: #fff;
 }
 
 .bg-pink {
     background-color: rgb(255, 192, 171);
+}
+
+.bg-blue {
+    background-color: #cefcff;
+}
+
+.bg-grey {
+    background-color: #eeeeee;
 }

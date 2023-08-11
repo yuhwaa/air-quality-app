@@ -8,14 +8,27 @@ const AirQualityLevelsTable = () => {
         { range: '301 and higher', level: 'Hazardous'},
       ];
     return (
-        <table>
-            {levels.map(({range, level},index)=>{
-                <tr key={index}>
+        <div className="card mb-4">
+          <div className="card-body">
+            <h5 className="card-title">Air Quality Levels</h5>
+              <table className="table">
+                <thead>
+                  <tr>
+                    <th scope="col">AQI Range</th>
+                    <th scope="col">Level of Health Concern</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {levels.map(({ range, level }, index) => (
+                  <tr key={index}>
                     <td>{range}</td>
                     <td>{level}</td>
-                </tr>
-            })}
-        </table>
+                  </tr>
+                  ))}
+                </tbody>
+            </table>
+          </div>
+        </div>
     )
 }
 
