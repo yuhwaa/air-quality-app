@@ -6,6 +6,13 @@ import PollutantInfo from './PollutantInfo'
 import AirQualityLevelsTable from './AirQualityLevelsTable'
 import './App.css';
 
+//add Card component
+//add forcast
+//add city pic
+//use map
+//map tiles
+//use widgets
+
 function App() {
   const[airQualityData, setAirQualityData] = useState(null)
   const [error, setError] = useState(null)
