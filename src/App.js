@@ -41,7 +41,7 @@ function App() {
   }
   return (
     <div className='container'>
-      <h1 className='mt-5 mb-3'>Air Quality Index Checker</h1>
+      <h1 className='mt-5 mb-3'>Air Quality Index Search</h1>
       <CitySearch getAirQuality={getAirQuality}/>
       {error && (
         <div className='alert alert-danger' role='alert'>
