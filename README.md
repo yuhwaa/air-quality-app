@@ -1,8 +1,6 @@
 # Air Quality App
 Access real-time air quality data for cities worldwide. Powered by an API.
 
-<!--[![Video Demo](/public/travel-budget-app.png)](https://youtu.be/tRJMaQjOos4)-->
-
 **Link to project:** https://air-quality-index-search.netlify.app/
 
 ![Air Quality App](/public/air-quality-app.gif)
